@@ -19,6 +19,7 @@
               <v-text-field
                 v-model="user.id"
                 :readonly="true"
+                label="ID"
               />
               <v-text-field
                 v-model="user.name"
