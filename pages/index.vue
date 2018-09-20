@@ -17,6 +17,10 @@
               v-model="valid"
             >
               <v-text-field
+                v-model="user.id"
+                :readonly="true"
+              />
+              <v-text-field
                 v-model="user.name"
                 :rules="nameRules"
                 :counter="30"
