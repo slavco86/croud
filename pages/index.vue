@@ -121,8 +121,10 @@ export default {
         })
         .then(data => {
           console.info(data);
+          let timer;
+          window.clearTimeout(timer);
           this.updatedUser = data.data.updateUser.id;
-          setTimeout(() => {
+          timer = window.setTimeout(() => {
             this.updatedUser = 0;
           }, 12000);
         });
