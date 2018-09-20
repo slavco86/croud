@@ -58,7 +58,7 @@
                   transition="fade-transition"
                   :hide-on-leave="true"
                 >
-                  Your information has been successfully submitted. You can verify this by checkin console for a response from Apollo Launchpad after successfully resolving PATCH request to API.
+                  Your information has been successfully submitted. You can verify this by checking console for a response from Apollo Launchpad after successfully resolving PATCH request to API.
                 </v-alert>
               </transition>
             </v-form>
